@@ -84,3 +84,5 @@ unit,
 rate,
 '<img src="http://localhost:8080/i/DIRECTORY_NAME/'||Parameter||'.png" width=100px height=100px </img>' image
 from PRODUCT_INFO
+
+
