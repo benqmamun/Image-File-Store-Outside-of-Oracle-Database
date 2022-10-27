@@ -49,6 +49,7 @@ END blob_to_file;
 /
 
 ### Create Table
+
 CREATE TABLE PRODUCT_INFO
 (
     PROD_ID NUMBER PRIMARY KEY,
