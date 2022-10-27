@@ -48,6 +48,16 @@ UTL_FILE.fclose(l_file);
 END blob_to_file;
 /
 
+### Create Table
+CREATE TABLE PRODUCT_INFO
+(
+    PROD_ID NUMBER PRIMARY KEY,
+    PROD_NAME VARCHAR2(50),
+    UNIT VARCHAR2(20),
+    RATE NUMBER,
+    IMAGE BLOB
+
+);
 
 ### Insert image in directory from APEX Application 
 
