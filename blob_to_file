@@ -82,5 +82,5 @@ select prod_id,
 prod_name,
 unit,
 rate,
-'<img src="http://45.124.13.48:3789/i/IMAGE_STORE/'||Parameter||'.png" width=100px height=100px </img>' image
+'<img src="http://localhost:8080/i/DIRECTORY_NAME/'||Parameter||'.png" width=100px height=100px </img>' image
 from PRODUCT_INFO
