@@ -62,7 +62,8 @@ CREATE TABLE PRODUCT_INFO
 
 ### Insert image in directory from APEX Application 
 
-
+DECLARE
+ l_blob  BLOB;
 BEGIN
 
  select  BLOB_CONTENT INTO   l_blob  FROM apex_application_temp_files
